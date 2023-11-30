@@ -91,7 +91,7 @@ def main():
     if "chat_history" not in st.session_state:
 
         st.session_state.chat_history = None
-    st.header("Legal MIND AI")
+    st.header("LEGAL MIND AI")
     st.header("Legal Strategy Companion - AI for Case Studies Advice & Law Insights :books:")
     user_question = st.text_input("Ask a question about your Case Studies documents:")
     
